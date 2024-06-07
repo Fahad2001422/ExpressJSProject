@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./views/**/*.{js,ejs,html,htm}", "./index.js"],
+  content: "./views/**/*.{ejs,html,htm}",
   theme: {
     extend: {
        colors: {
           brown: {
-              50: '#fdf8f6',
+              50: '#FDF8F6',
               100: '#f2e8e5',
               200: '#eaddd7',
               300: '#e0cec7',
