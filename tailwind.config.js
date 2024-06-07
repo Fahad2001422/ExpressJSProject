@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: "./views/**/*.{ejs,html,htm}",
+  content: ["./views/**/*.{ejs,html,htm}"],
   theme: {
     extend: {
        colors: {
@@ -23,7 +23,7 @@ module.exports = {
       require('@tailwindcss/typography'),
       require('@tailwindcss/forms'),
       require('@tailwindcss/aspect-ratio'),
-      require('@tailwincdss/container-queries')
+      require('@tailwindcss/container-queries')
   ],
   darkMode: 'class'
 }

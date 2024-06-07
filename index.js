@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use('/birds', birds);
 
 app.get('/', (req, res) => {
-         res.render("home");
+         res.render("home", {text: "Grove Street, Home."});
 });
 
 app.get('/about', (req, res) => {
