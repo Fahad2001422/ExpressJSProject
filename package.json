@@ -1,7 +1,7 @@
 {
   "name": "express_app",
   "version": "1.0.0",
-  "description": "A stupid simple app I created to waste my time. That's all.",
+  "description": "A stupid simple web app I created to waste my time. That's all.",
   "exports": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
