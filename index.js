@@ -1,14 +1,14 @@
 const express = require('express');
 const birds = require('./birds');
 const path = require("node:path");
-const app = express();
 
+const app = express();
 const server = app.listen(3000, () => {
     console.log(`The application has started listening on port ${server.address().port}.`);
     console.log(`The __dirname variable is: ${__dirname} and __filename is: ${__filename}.`);
 });
 
-app.
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
