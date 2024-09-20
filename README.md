@@ -1,4 +1,4 @@
-# my_vuejs_project
+# My ExpressJS Project
 
 This template should help get you started developing with Vue 3 in Vite.
 
